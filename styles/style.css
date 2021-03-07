@@ -1,0 +1,153 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+html body {
+    background-color: #2fede0;
+}
+
+.dsNone {
+    display: none !important;
+}
+
+.no-PointerEvents {
+    pointer-events: none;
+}
+
+.no-TextDecoration {
+    text-decoration: none;
+}
+
+.categoryTitle {
+    padding-top: 5px;
+    padding-left: 2px;
+}
+
+
+
+.card {
+    z-index: 3;
+    box-shadow:
+        0px 3px 5px -1px rgb(0 0 0 / 20%),
+        0px 6px 10px 0px rgb(0 0 0 / 14%),
+        0px 1px 18px 0px rgb(0 0 0 / 12%);
+}
+
+/* ======== navBar ======== */
+body nav {
+    background-color: #00baae;
+    z-index: 3;
+    box-shadow:
+        0px 3px 5px -1px rgb(0 0 0 / 20%),
+        0px 6px 10px 0px rgb(0 0 0 / 14%),
+        0px 1px 18px 0px rgb(0 0 0 / 12%);
+}
+
+nav #containerNav {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+
+nav ul {
+
+    position: absolute;
+    list-style-type: none;
+}
+
+
+nav ul li {
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #880061
+}
+
+/* ======== navBar ======== */
+
+/* ======== LoginScreen ======== */
+body #loginScreen,
+#questionScreen,
+#scoreScreen {
+    height: 95%;
+}
+
+.container-fluid form {
+    background-color: #fff;
+}
+
+#loginScreen #cardLogin {
+    width: 20em;
+    height: 20em;
+
+
+}
+
+.card .card-body {
+    background-color: #b2ffd3;
+}
+
+
+.card .card-header {
+    background-color: #7cffa1;
+
+}
+
+
+
+#cardLogin input {
+    width: 100%;
+}
+
+/* ======== LoginScreen ======== */
+
+
+/* ======== questionContent ======== */
+
+.list-group .list-group-item {
+    padding: 1.5em 10em;
+}
+
+.list-group .selectedItem {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+/* ======== questionContent ======== */
+
+/* ======== ScoreTable ======== */
+body #tablePlacar {
+    width: 50%;
+    z-index: 3;
+    box-shadow:
+        0px 3px 5px -1px rgb(0 0 0 / 20%),
+        0px 6px 10px 0px rgb(0 0 0 / 14%),
+        0px 1px 18px 0px rgb(0 0 0 / 12%);
+
+}
+
+body #tablePlacar td {
+    text-align: center;
+
+}
+
+body #tablePlacar th {
+    text-align: center;
+
+}
+
+/* ======== ScoreTable ======== */
