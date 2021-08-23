@@ -3,7 +3,7 @@
 Quizz Desenvolvido em Jquery, gerando perguntas a partir do consumo de uma API de perguntas disponibilizada em: https://opentdb.com/api_config.php
 
 
-## Motivação
+## Motivação Para o Projeto
 
 * Desenvolver um Quizz com o consumo de uma API de perguntas; 
 * Estruturação do projeto toda em JQUERY, desde o consumo da API, até a montagem dos componentes gráficos;
